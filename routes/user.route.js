@@ -1,9 +1,5 @@
 import { Router } from "express";
-import getAllUsers from "../controllers/getAllUsers.js";
-import postUser from "../controllers/postUser.js";
-import specificUser from "../controllers/specificUser.js";
-import updateUser from "../controllers/updateUser.js";
-import deleteUser from "../controllers/deleteUser.js";
+import { deleteUser, getAllUsers, postUser, specificUser, updateUser } from "../controllers/task.controller.js";
 
 const route=new Router()
 
